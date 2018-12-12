@@ -1,17 +1,23 @@
 {
-  "name": "db-connection",
+  "name": "employeefinder",
   "version": "1.0.0",
-  "description": "",
-  "main": "db-connection.js",
+  "description": "Employee Finder",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmathews/employeeFinder.git"
+  },
+  "author": "Scott Mathews",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsmathews/employeeFinder/issues"
+  },
+  "homepage": "https://github.com/dsmathews/employeeFinder#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "mysql2": "^1.6.1",
-    "sequelize": "^4.41.0"
+    "express": "^4.16.4"
   }
 }

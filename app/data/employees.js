@@ -1,75 +1,173 @@
 const employees = [
-    {
-        name: "Arthur Morgan",
-        photos: "https://www.foxsportsasia.com/tachyon/2018/10/RDR2-Arthur-Morgan.jpg?w=740",
-        scores: [
-            "2",
-            "5",
-            "3",
-            "1",
-            "1",
-            "3",
-            "2",
-            "4",
-            "3",
-            "3",
-        ],
-        name: "Chris Redfield",
-        photos: "https://pbs.twimg.com/profile_images/905913324247842817/dkQyx-o2_400x400.jpg",
-        scores: [
-            "1",
-            "3",
-            "3",
-            "4",
-            "1",
-            "5",
-            "2",
-            "3",
-            "3",
-            "1",
-        ],
-        name: "Cloud Strife",
-        photos: "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/cloud-strife-final-fantasy-vii-3.67.jpg",
-        scores: [
-            "1",
-            "2",
-            "3",
-            "1",
-            "4",
-            "5",
-            "2",
-            "4",
-            "3",
-            "1",
-        ],
-        name: "Faith",
-        photos: "http://userimages-akm.imvu.com/userdata/24/45/29/10/userpics/Snap_dunYduPegJ176376465.jpg",
-        scores: [
-            "5",
-            "3",
-            "4",
-            "2",
-            "4",
-            "1",
-            "4",
-            "5",
-            "4",
-            "4",
-        ],
-        name: "Captain Shepard",
-        photos: "https://pbs.twimg.com/profile_images/535480450265800705/WbBA_bjS_400x400.jpeg",
-        scores: [
-            "1",
-            "3",
-            "4",
-            "5",
-            "2",
-            "2",
-            "4",
-            "3",
-            "2",
-            "1",
-        ]
-    
-    }
-]
+{
+  "name":"Harry",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536649-500-375.jpg",
+  "scores":[
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+},
+
+{
+  "name":"Hermione",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536640-500-375.jpg",
+  "scores":[
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+},
+
+{
+  "name":"Ron",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536648-500-375.jpg",
+  "scores":[
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+},
+
+{
+  "name":"Ginny",
+  "photo":"http://images4.fanpop.com/image/photos/23200000/DH-Part-II-ginny-weasley-23204408-500-375.jpg",
+  "scores":[
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+},
+
+{
+  "name":"Hagrid",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536645-500-375.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      3,
+      1,
+      2,
+      5,
+      1,
+      1
+    ]
+},
+
+{
+  "name":"Bellatrix",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536637-500-375.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      2,
+      2,
+      5,
+      2,
+      1
+    ]
+},
+
+{
+  "name":"Voldemort",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536635-500-375.jpg",
+  "scores":[
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+},
+
+{
+  "name":"Draco",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536639-500-375.jpg",
+  "scores":[
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+},
+
+{
+  "name":"Snape",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536636-500-375.jpg",
+  "scores":[
+      5,
+      4,
+      4,
+      4,
+      3,
+      1,
+      2,
+      4,
+      1,
+      5
+    ]
+},
+
+{
+  "name":"Dumbledore",
+  "photo":"http://images6.fanpop.com/image/photos/37000000/Albus-Dumbledore-harry-potter-37017026-500-375.jpg",
+  "scores":[
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+},
+
+];
+module.exports = employees;
